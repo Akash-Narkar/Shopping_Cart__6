@@ -1,0 +1,8 @@
+<div class="item-form">
+    <h3>Add New Item</h3>
+    <label>Name: <input [(ngModel)]="item.name"></label>
+    <label>Price: <input type="number" [(ngModel)]="item.price"></label>
+    <button (click)="save.emit()">Save</button>
+    <button (click)="cancel.emit()">Cancel</button>
+  </div>
+  
